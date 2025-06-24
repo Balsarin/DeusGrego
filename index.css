@@ -1,0 +1,111 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* Corpo da página */
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #fff;
+}
+
+
+/* Container centralizado para o conteúdo */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+
+/* Título principal */
+h1 {
+text-align: center;
+color: white;
+margin-bottom: 20px;
+}
+
+
+/* Seções sobre Poseidon e o Delta com fundo */
+.left, .right {
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+
+.left {
+background-color: #2a9d8f; /* Verde escuro */
+}
+
+
+.right {
+background-color: #6a4c93; /* Roxo escuro */
+}
+
+
+/* Texto principal sobre Poseidon */
+.content {
+font-size: 1.1rem;
+text-align: justify;
+}
+
+
+/* Link para a imagem de Poseidon */
+.image-container {
+text-align: center;
+margin: 20px 0;
+}
+
+
+.image-container img {
+width: 50%;
+height: auto;
+border-radius: 8px;
+transition: transform 0.3s ease;
+}
+
+
+.image-container img:hover {
+transform: scale(1.1);
+}
+
+
+/* Símbolo Delta estilizado */
+.symbol-delta {
+text-align: center;
+font-size: 80px;
+color: white;
+margin-top: 20px;
+}
+
+
+/* Estilos para uma imagem verde e roxa */
+.image-container img.green-purple {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+.container {
+    padding: 10px;
+}
+
+
+.left, .right {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.image-container img {
+    width: 80%;
+}
+}
